@@ -70,14 +70,14 @@ function Galerikeramik() {
         <div className="w-full pt-[95px]">
           <div className="flex flex-col items-center">
             <h2 className="w-[430px] text-center">Design Guideline</h2>
-            <p className="font-light w-[605px] text-center">
+            <p className="font-light w-[605px] text-center pb-[20px]">
               These are the sets of recommendations on how to apply design
               principles to enforce consistent and positive user experience
               throughout GaleriKeramik website.
             </p>
           </div>
-          <div className="relative w-full pt-[20px]">
-            <div className="w-full aspect-[1.492]">
+          <div className="relative w-full">
+            <div className="w-full max-w-[1920px] aspect-[1.492]">
               <Image
                 src={`/galerikeramik/guide.png`}
                 alt="galeri keramik image"
