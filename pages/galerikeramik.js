@@ -37,7 +37,7 @@ function Galerikeramik() {
           </div>
         </div>
         <div className="relative w-full max-w-[1920px] items-start">
-          <div className="w-full xl:h-[780px]">
+          <div className="w-full aspect-[2.470]">
             <Image
               src={`/galerikeramik/top.png`}
               alt="galeri keramik image"
@@ -57,7 +57,7 @@ function Galerikeramik() {
             </p>
           </div>
           <div className="relative w-full pt-[20px]">
-            <div className="w-full xl:h-[2950px] drop-shadow-2xl">
+            <div className="w-full aspect-[0.434] drop-shadow-2xl">
               <Image
                 src={`/galerikeramik/mid.png`}
                 alt="galeri keramik image"
@@ -77,7 +77,7 @@ function Galerikeramik() {
             </p>
           </div>
           <div className="relative w-full pt-[20px]">
-            <div className="w-full xl:h-[1300px]">
+            <div className="w-full aspect-[1.492]">
               <Image
                 src={`/galerikeramik/guide.png`}
                 alt="galeri keramik image"
@@ -121,7 +121,7 @@ function Galerikeramik() {
           </div>
         </div>
         <div className="relative w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] py-[95px]">
-          <div className="w-full xl:h-[1125px] drop-shadow-2xl">
+          <div className="w-full aspect-[1.139] drop-shadow-2xl">
             <Image
               src={`/galerikeramik/p3.png`}
               alt="galeri keramik image"
@@ -132,7 +132,7 @@ function Galerikeramik() {
         </div>
         <div className="w-full mt-[95px] flex flex-col items-center justify-center bg-[#FDF1D4]">
           <div className="relative w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] pt-[50px] pb-[80px]">
-            <div className="w-full xl:h-[1200px] drop-shadow-2xl">
+            <div className="w-full aspect-[1.069] drop-shadow-2xl">
               <Image
                 src={`/galerikeramik/p4.png`}
                 alt="galeri keramik image"

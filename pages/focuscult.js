@@ -304,9 +304,9 @@ function Focuscult() {
                 <div className="pt-[20px]">
                   <div className="relative -left-[21px]">
                     <div className="absolute border border-[#A8A8A8] h-[400px] top-[25px]" />
-                    <div className="absolute rounded-full w-[10px] h-[10px] top-[20px] -left-[5px] bg-[#FA7B7B]" />
-                    <div className="absolute rounded-full w-[10px] h-[10px] top-[212px] -left-[5px] bg-[#7BFAE3]" />
-                    <div className="absolute rounded-full w-[10px] h-[10px] top-[418px] -left-[5px] bg-[#857BFA]" />
+                    <div className="absolute rounded-full w-[10px] h-[10px] top-[20px] -left-[4px] bg-[#FA7B7B]" />
+                    <div className="absolute rounded-full w-[10px] h-[10px] top-[212px] -left-[4px] bg-[#7BFAE3]" />
+                    <div className="absolute rounded-full w-[10px] h-[10px] top-[418px] -left-[4px] bg-[#857BFA]" />
                   </div>
                   <div className="flex pt-[5px] gap-[10px] items-center">
                     <div className="border p-[5px] border-[#379298] text-[#379298]">

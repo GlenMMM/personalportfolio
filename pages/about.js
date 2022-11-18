@@ -18,7 +18,7 @@ function About() {
               I&lsquo;m Glen, passionate interface and experience designer from
               Surabaya, Indonesia.
             </h3>
-            <p className="pb-[10px]">
+            <p className="pb-[10px] text-justify">
               I am originally majored in economics & finances, graduated in late
               2018. After I graduated I work as Credit Analyst at a bank for a
               year, then continuing as Assistant Property Valuer for another
@@ -28,7 +28,7 @@ function About() {
               my passion is, and that passion is design. Since then, I&lsquo;ve
               been working as a full-time digital designer as a freelancer.
             </p>
-            <p className="pb-[10px]">
+            <p className="pb-[10px] text-justify">
               I&lsquo;ve been lucky enough to have had the chances to work with
               amazing client that encouraged me to keep challenging myself. My
               study in design is mostly self-thaught, but this summer (2022)
@@ -38,7 +38,7 @@ function About() {
               help me to overcome the mental block that I usually experienced as
               a designer.
             </p>
-            <p className="pb-[10px]">
+            <p className="pb-[10px] text-justify">
               I&lsquo;m currently based in Surabaya, Indonesia creating digital
               product that could help people elevate their brand and business
               experiences.

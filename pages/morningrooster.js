@@ -15,12 +15,12 @@ function Morningrooster() {
             <div className="flex flex-col -mt-[15px] pr-[70px]">
               <h1>Morning Rooster</h1>
               <p className="text-[#9E9E9E]">
-                {` Morning Rooster is a small roastery, where it intends to expand
+                Morning Rooster is a small roastery, where it intends to expand
                 their business by selling a high quality coffee beans and coffee
                 drip product. My role was to help developing a visual identity
                 that could be notice in an already competitive region, through
-                wich it could express it’s commitment to it’s customer and
-                specialized supplier.`}
+                wich it could express it&lsquo;s commitment to it&lsquo;s
+                customer and specialized supplier.
               </p>
               <div className="flex pt-[20px] justify-between w-[400px]">
                 <div>

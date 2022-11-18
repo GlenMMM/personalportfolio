@@ -37,7 +37,7 @@ function Composuremagazine() {
           </div>
         </div>
         <div className="relative w-full max-w-[1920px] items-start">
-          <div className="w-full xl:h-[1230px] bg-red-200">
+          <div className="w-full aspect-[1.548]">
             <Image
               src={`/composure/top.png`}
               alt="composure magazine image"
@@ -57,7 +57,7 @@ function Composuremagazine() {
             </p>
           </div>
           <div className="relative w-full pt-[20px]">
-            <div className="w-full xl:h-[2380px] drop-shadow-2xl">
+            <div className="w-full aspect-[0.537] drop-shadow-2xl">
               <Image
                 src={`/composure/mid.png`}
                 alt="composure magazine image"
@@ -69,7 +69,7 @@ function Composuremagazine() {
         </div>
         <div className="w-full flex flex-col items-center justify-center mt-[95px] bg-[#FFD6A6]">
           <div className="relative w-full  max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] py-[60px]">
-            <div className="w-full xl:h-[4220px] drop-shadow-2xl">
+            <div className="w-full aspect-[0.303] drop-shadow-2xl">
               <Image
                 src={`/composure/bot.png`}
                 alt="composure magazine image"
@@ -81,7 +81,7 @@ function Composuremagazine() {
         </div>
         <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center py-[95px]">
           <div className="relative w-full pt-[20px]">
-            <div className="w-full xl:h-[900px] drop-shadow-2xl ">
+            <div className="w-full aspect-[1.436] drop-shadow-2xl">
               <Image
                 src={`/composure/last.png`}
                 alt="composure magazine image"

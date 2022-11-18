@@ -19,21 +19,21 @@ const Navbar = ({ toggle, route, router, ...props }) => {
           <Link
             href="/about"
             passHref
-            className={`p-4 hover:opacity-100 opacity-80 items-center gap-2 hidden md:flex text-[16px]`}
+            className={`p-4 hover:opacity-100 opacity-60 items-center gap-2 hidden md:flex text-[16px]`}
           >
             <div {...props}>About</div>
           </Link>
           <Link
-            href="/work"
+            href="/#work"
             passHref
-            className={`p-4 hidden md:flex hover:opacity-100 opacity-80 items-center gap-2 text-[16px]`}
+            className={`p-4 hidden md:flex hover:opacity-100 opacity-60 items-center gap-2 text-[16px]`}
           >
             <div {...props}>Work</div>
           </Link>
           <Link
             href="/archives"
             passHref
-            className={`p-4 hover:opacity-100 opacity-80 items-center gap-2 hidden md:flex text-[16px]`}
+            className={`p-4 hover:opacity-100 opacity-60 items-center gap-2 hidden md:flex text-[16px]`}
           >
             <div {...props}>Archives</div>
           </Link>
