@@ -89,7 +89,10 @@ function Galerikeramik() {
         </div>
         <div className="w-full mt-[95px] flex flex-col items-center justify-center bg-[#E9E9E9]">
           <div className="flex flex-col items-center pt-[50px]">
-            <h2 className="w-[635px] text-center">{`Don't find customers for your products, find products for your customers.`}</h2>
+            <h2 className="w-[635px] text-center">
+              Don&lsquo;t find customers for your products, find products for
+              your customers.
+            </h2>
             <p className="font-light w-[500px] text-center">
               Because Galeri Keramik believe that customer only deserve a good
               quality product. Products are the things people need to assist

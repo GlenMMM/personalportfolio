@@ -60,8 +60,8 @@ function Morningrooster() {
               The name “Morning Rooster” indicates, for example, a journey of
               quick and meaningful morning routine experience. Providing high
               quality quick to brew coffee drip for a target audience that likes
-              to drink coffee in the morning, but don't have much time to brew
-              their own coffee.
+              to drink coffee in the morning, but don&lsquo;t have much time to
+              brew their own coffee.
             </p>
           </div>
           <div className="relative flex items-center justify-center pt-[20px]">

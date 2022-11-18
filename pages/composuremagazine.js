@@ -49,7 +49,7 @@ function Composuremagazine() {
         <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[95px]">
           <div className="flex flex-col items-center">
             <h2 className="max-w-[430px] text-center">
-              {`Connecting with today's generation.`}
+              Connecting with today&lsquo;s generation.
             </h2>
             <p className="font-light max-w-[495px] text-center">
               featurIng brands for the woman who has a discerning sensibility
