@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
       <Layout className="text-white">
         <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex items-center justify-center flex-col">
-         <Hero className="text-white" />
-         <Highlight />
+          <Hero />
+          <Highlight />
         </div>
       </Layout>
     </div>
