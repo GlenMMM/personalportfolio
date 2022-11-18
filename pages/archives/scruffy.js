@@ -5,14 +5,14 @@ import Layout from "../../components/Layout";
 function Scruffy() {
   return (
     <div>
-      <Layout>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px]">
-          <div className="flex pt-[25px] items-start gap-[16px] w-[800px] py-[80px]">
+      <Layout stroke="black">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
+          <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[800px] py-[40px] md:py-[80px]">
             <div className="flex items-center gap-[10px]">
               <p className="xl:w-[135px]">Brand & Logo Design</p>
               <div className="border-b border-[#9E9E9E] w-[43px]" />
             </div>
-            <div className="flex flex-col -mt-[15px] pr-[70px]">
+            <div className="flex flex-col -mt-[15px] md:pr-[70px]">
               <h1>Scruffy</h1>
               <p className="text-[#9E9E9E]">
                 My first exploration with a goal to learn about brand & logo

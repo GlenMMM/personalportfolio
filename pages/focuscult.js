@@ -6,14 +6,14 @@ import Link from "next/link";
 function Focuscult() {
   return (
     <div>
-      <Layout>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px]">
-          <div className="flex pt-[25px] items-start gap-[16px] w-[900px] py-[80px]">
+      <Layout stroke="black">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
+          <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[900px] py-[40px] md:py-[80px]">
             <div className="flex items-center gap-[10px]">
               <p className="xl:w-[135px]">UI/UX Research</p>
               <div className="border-b border-[#9E9E9E] w-[43px]" />
             </div>
-            <div className="flex flex-col -mt-[15px] pr-[70px]">
+            <div className="flex flex-col -mt-[15px] md:pr-[70px]">
               <h1>Focus Cult</h1>
               <p className="text-[#9E9E9E]">
                 {` Focus cult is an initiative answer to lessen the impact of smarphone addiction by making its user close down the phone and record their choosen activity. `}

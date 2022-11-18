@@ -6,22 +6,26 @@ const Sidebar = ({ isOpen, toggle, route, ...props }) => {
     <div
       className={
         isOpen
-          ? "fixed z-30 bg-white top-0 w-full h-full lg:hidden translate-y-0 duration-700 transform ease-out "
+          ? "fixed z-30 bg-black top-0 w-full h-full lg:hidden translate-y-0 duration-700 transform ease-out"
           : "translate-y-[-100%]"
       }
     >
-      <div className="absolute  top-0 right-0 z-30 w-full bg-bgCol h-full text-main overflow-hidden flex flex-col items-center justify-center">
+      <div
+        className={`absolute  top-0 right-0 z-30 w-full bg-bgCol h-full text-main overflow-hidden flex flex-col items-center justify-center`}
+      >
         <div className="flex py-4 items-center w-full justify-between px-4 sm:px-0 z-10 max-w-[500px]">
-          <Link href="/" passHref>
-            <div {...props}>GLEN</div>
-          </Link>
+          <div className="flex items-center relative w-[125px] h-[45px] md:w-[170px] md:h-[65px] xl:w-[224px] xl:h-[82px]">
+            <Link href="/" passHref className="font-extrabold text-[24px]">
+              <div className="text-white">GLEN</div>
+            </Link>
+          </div>
 
-          <div className="cursor-pointer z-10" onClick={toggle}>
+          <div className="cursor-pointer z-10 " onClick={toggle}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-8 w-8"
               viewBox="0 0 20 20"
-              fill="main"
+              fill="white"
             >
               <path
                 fillRule="evenodd"
@@ -32,36 +36,28 @@ const Sidebar = ({ isOpen, toggle, route, ...props }) => {
           </div>
         </div>
 
-        <div className="w-full flex flex-col h-full justify-start items-center pt-[160px] z-40">
+        <div className="w-full flex flex-col h-full justify-center items-center z-40">
           <ul
-            className="px-4 pt-3 -mt-40 text-subTwo w-full z-10 max-w-[500px]"
+            className="px-4 pt-3 -mt-40 text-white w-full z-10 text-center flex flex-col gap-y-[50px]"
             onClick={toggle}
           >
             <li className="w-full">
-              <Link
-                href="/about"
-                passHref
-                className={`block py-3 px-5 text-[22px]`}
-              >
-                <div {...props}>About</div>
+              <Link href="/about" passHref className={`block px-5 text-[22px]`}>
+                <div>About</div>
               </Link>
             </li>
             <li className="w-full">
-              <Link
-                href="/work"
-                passHref
-                className={`block py-3 px-5 text-[22px]`}
-              >
-                <div {...props}>Work</div>
+              <Link href="/#work" passHref className={`block px-5 text-[22px]`}>
+                <div>Work</div>
               </Link>
             </li>
             <li className="w-full">
               <Link
                 href="/archives"
                 passHref
-                className={`block py-3 px-5 text-[22px]`}
+                className={`block px-5 text-[22px]`}
               >
-                <div {...props}>Archives</div>
+                <div>Archives</div>
               </Link>
             </li>
           </ul>

@@ -6,20 +6,20 @@ import Layout from "../../components/Layout";
 function index() {
   return (
     <div>
-      <Layout>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px]">
-          <div className="flex pt-[25px] items-start gap-[16px] w-[800px] py-[80px]">
+      <Layout stroke="black">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
+          <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[800px] py-[80px]">
             <div className="flex items-center gap-[10px]">
               <p className="xl:w-[135px]">Personal Porfolio </p>
               <div className="border-b border-[#9E9E9E] w-[43px]" />
             </div>
-            <div className="flex flex-col -mt-[15px] pr-[70px]">
+            <div className="flex flex-col -mt-[15px] md:pr-[70px]">
               <h1>Archives</h1>
               <p className="text-[#9E9E9E]">
                 A compilation of personal past projects that I&lsquo;ve worked
                 on that unfortunately never happened or not strong enough to be
                 on my portfolio. Including a random exploration that I did to
-                try something different .
+                try something different.
               </p>
             </div>
           </div>
@@ -35,15 +35,17 @@ function index() {
                   />
                 </div>
               </div>
-              <div className="flex pt-[25px] items-start gap-[16px] py-[80px]">
+              <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] py-[80px]">
                 <div className="flex items-center gap-[10px]">
                   <p className="xl:w-[135px]">UI/UX Research</p>
                   <div className="border-b border-[#9E9E9E] w-[43px]" />
                 </div>
-                <div className="flex flex-col -mt-[15px] pr-[70px]">
+                <div className="flex flex-col -mt-[15px] md:pr-[70px]">
                   <h1>Focus Cult</h1>
                   <p className="text-[#9E9E9E]">
-                    {` Focus cult is an initiative answer to lessen the impact of smarphone addiction by making its user close down the phone and record their choosen activity. `}
+                    Focus cult is an initiative answer to lessen the impact of
+                    smarphone addiction by making its user close down the phone
+                    and record their choosen activity.
                   </p>
                 </div>
               </div>
@@ -61,12 +63,12 @@ function index() {
                   />
                 </div>
               </div>
-              <div className="flex pt-[25px] items-start gap-[16px] py-[80px]">
+              <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] py-[80px]">
                 <div className="flex items-center gap-[10px]">
                   <p className="xl:w-[135px]">Landing Page Design</p>
                   <div className="border-b border-[#9E9E9E] w-[43px]" />
                 </div>
-                <div className="flex flex-col -mt-[15px] pr-[70px]">
+                <div className="flex flex-col -mt-[15px] md:pr-[70px]">
                   <h1>Gate Keeping</h1>
                   <p className="text-[#9E9E9E]">
                     This section is my take on how art gallery should adapt
@@ -90,12 +92,12 @@ function index() {
                   />
                 </div>
               </div>
-              <div className="flex pt-[25px] items-start gap-[16px] py-[80px]">
+              <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] py-[80px]">
                 <div className="flex items-center gap-[10px]">
                   <p className="xl:w-[135px]">Mobile App Design</p>
                   <div className="border-b border-[#9E9E9E] w-[43px]" />
                 </div>
-                <div className="flex flex-col -mt-[15px] pr-[70px]">
+                <div className="flex flex-col -mt-[15px] md:pr-[70px]">
                   <h1>Travellux</h1>
                   <p className="text-[#9E9E9E]">
                     Travellux is a digital travel journals where travellers
@@ -119,12 +121,12 @@ function index() {
                   />
                 </div>
               </div>
-              <div className="flex pt-[25px] items-start gap-[16px] py-[80px]">
+              <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] py-[80px]">
                 <div className="flex items-center gap-[10px]">
                   <p className="xl:w-[135px]">Brand & Logo Design</p>
                   <div className="border-b border-[#9E9E9E] w-[43px]" />
                 </div>
-                <div className="flex flex-col -mt-[15px] pr-[70px]">
+                <div className="flex flex-col -mt-[15px] md:pr-[70px]">
                   <h1>Scruffy</h1>
                   <p className="text-[#9E9E9E]">
                     My first exploration with a goal to learn about brand & logo

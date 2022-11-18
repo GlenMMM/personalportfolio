@@ -5,14 +5,14 @@ import Layout from "../components/Layout";
 function Morningrooster() {
   return (
     <div>
-      <Layout>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px]">
-          <div className="flex pt-[25px] items-start gap-[16px] w-[800px] py-[80px]">
+      <Layout stroke="black">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
+          <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[800px] py-[40px] md:py-[80px]">
             <div className="flex items-center gap-[10px]">
               <p className="xl:w-[135px]">Brand design & Guideline</p>
               <div className="border-b border-[#9E9E9E] w-[43px]" />
             </div>
-            <div className="flex flex-col -mt-[15px] pr-[70px]">
+            <div className="flex flex-col -mt-[15px] md:pr-[70px]">
               <h1>Morning Rooster</h1>
               <p className="text-[#9E9E9E]">
                 Morning Rooster is a small roastery, where it intends to expand
@@ -22,7 +22,7 @@ function Morningrooster() {
                 wich it could express it&lsquo;s commitment to it&lsquo;s
                 customer and specialized supplier.
               </p>
-              <div className="flex pt-[20px] justify-between w-[400px]">
+              <div className="flex pt-[20px] justify-between lg:w-[400px]">
                 <div>
                   <p className="font-medium">Agency</p>
                   <p className="font-light text-[14px]">Freelance</p>
@@ -51,10 +51,10 @@ function Morningrooster() {
             />
           </div>
         </div>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[95px]">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[40px] md:pt-[95px] px-[20px] md:px-0">
           <div className="flex flex-col items-center">
             <h2 className="max-w-[430px] text-center">
-              {`Initial Logo Design Concept`}
+              Initial Logo Design Concept
             </h2>
             <p className="font-light max-w-[495px] text-center">
               The name &ldquo;Morning Rooster &rdquo; indicates, for example, a
@@ -65,7 +65,7 @@ function Morningrooster() {
             </p>
           </div>
           <div className="relative flex items-center justify-center pt-[20px]">
-            <div className="w-[512px] aspect-[5.565] drop-shadow-2xl">
+            <div className="w-[335px] md:w-[512px] aspect-[5.565] drop-shadow-2xl">
               <Image
                 src={`/morning/logo.png`}
                 alt="morning rooster image"
@@ -74,32 +74,32 @@ function Morningrooster() {
               />
             </div>
           </div>
-          <div className="w-full flex flex-col justify-start">
+          <div className="w-full flex flex-col justify-start pt-[40px]">
             <h4>Color Pallete</h4>
             <div className="flex w-full pt-[10px] justify-between gap-[16px]">
-              <div className="relative bg-[#232F56] xl:w-1/4 aspect-square">
-                <h4 className="absolute bottom-[10px] left-[15px] text-[#FFEBCF] font-bold">
+              <div className="relative bg-[#232F56] w-1/4 aspect-square">
+                <h4 className="absolute bottom-[5px] left-[5px] md:bottom-[10px] md:left-[15px] text-[#FFEBCF] font-bold">
                   232F56
                 </h4>
               </div>
-              <div className="relative bg-[#FF5C2F] xl:w-1/4 aspect-square">
-                <h4 className="absolute bottom-[10px] left-[15px] text-[#FFC26E] font-bold">
+              <div className="relative bg-[#FF5C2F] w-1/4 aspect-square">
+                <h4 className="absolute bottom-[5px] left-[5px] md:bottom-[10px] md:left-[15px] text-[#FFC26E] font-bold">
                   FF5C2F
                 </h4>
               </div>
-              <div className="relative bg-[#FFC26E] xl:w-1/4 aspect-square">
-                <h4 className="absolute bottom-[10px] left-[15px] text-[#FF5C2F] font-bold">
+              <div className="relative bg-[#FFC26E] w-1/4 aspect-square">
+                <h4 className="absolute bottom-[5px] left-[5px] md:bottom-[10px] md:left-[15px] text-[#FF5C2F] font-bold">
                   FFC26E
                 </h4>
               </div>
-              <div className="relative bg-[#FFEBCF] xl:w-1/4 aspect-square">
-                <h4 className="absolute bottom-[10px] left-[15px] text-[#232F56] font-bold">
+              <div className="relative bg-[#FFEBCF] w-1/4 aspect-square">
+                <h4 className="absolute  bottom-[5px] left-[5px] md:bottom-[10px] md:left-[15px] text-[#232F56] font-bold">
                   FFEBCF
                 </h4>
               </div>
             </div>
             <h4 className="pt-[50px]">Typography</h4>
-            <div className="relative flex w-full pt-[32px]">
+            <div className="relative flex w-full pt-[10px] md:pt-[32px]">
               <div className="w-full aspect-[1.8]">
                 <Image
                   src={`/morning/ranille.png`}
@@ -110,7 +110,7 @@ function Morningrooster() {
               </div>
             </div>
             <h4 className="pt-[50px]">Pattern & Logo</h4>
-            <div className="relative flex w-full pt-[32px]">
+            <div className="relative flex w-full pt-[10px] md:pt-[32px]">
               <div className="w-full aspect-[0.548]">
                 <Image
                   src={`/morning/pattern.png`}
@@ -123,20 +123,20 @@ function Morningrooster() {
             <h4 className="pt-[50px]">Icon Set</h4>
           </div>
         </div>
-        <div className="relative flex w-full pt-[32px] max-w-[1920px]">
-          <div className="w-full aspect-[3.69] ">
+        <div className="relative flex w-full pt-[10px] md:pt-[32px] max-w-[1920px]">
+          <div className="w-full aspect-[3.69]">
             <Image
               src={`/morning/icon.png`}
               alt="morning rooster image"
               fill
-              className="object-contain"
+              className="object-contain px-[20px]"
             />
           </div>
         </div>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[50px]">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[50px] px-[20px] md:px-0">
           <div className="w-full flex flex-col items-start justify-start">
             <h4>Sticker Set</h4>
-            <div className="relative flex w-full pt-[32px] justify-between">
+            <div className="relative flex w-full pt-[10px] md:pt-[32px] justify-between">
               <div className="w-full aspect-[2.95]">
                 <Image
                   src={`/morning/sticker.png`}

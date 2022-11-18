@@ -5,21 +5,21 @@ import Layout from "../components/Layout";
 function Galerikeramik() {
   return (
     <div>
-      <Layout>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px]">
-          <div className="flex pt-[25px] items-start gap-[16px] w-[800px] py-[80px]">
+      <Layout stroke="black">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
+          <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[800px] py-[40px] md:py-[80px]">
             <div className="flex items-center gap-[10px]">
               <p className="xl:w-[135px]">Website design</p>
               <div className="border-b border-[#9E9E9E] w-[43px]" />
             </div>
-            <div className="flex flex-col -mt-[15px] pr-[70px]">
+            <div className="flex flex-col -mt-[15px] md:pr-[70px]">
               <h1>Galeri Keramik</h1>
               <p className="text-[#9E9E9E]">
                 Designing website from scratch, bringing together Galeri Keramik
                 different products category, sevices, contact into an unified
                 website experience.
               </p>
-              <div className="flex pt-[20px] justify-between w-[400px]">
+              <div className="flex pt-[20px] justify-between lg:w-[400px]">
                 <div>
                   <p className="font-medium">Agency</p>
                   <p className="font-light text-[14px]">Freelance</p>
@@ -46,7 +46,7 @@ function Galerikeramik() {
             />
           </div>
         </div>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[95px]">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[40px] md:pt-[95px]">
           <div className="flex flex-col items-center">
             <h2 className="max-w-[430px] text-center">
               Delivering the best quality products.
@@ -67,10 +67,10 @@ function Galerikeramik() {
             </div>
           </div>
         </div>
-        <div className="w-full pt-[95px]">
+        <div className="w-full pt-[40px] md:pt-[95px]">
           <div className="flex flex-col items-center">
-            <h2 className="w-[430px] text-center">Design Guideline</h2>
-            <p className="font-light w-[605px] text-center pb-[20px]">
+            <h2 className="lg:w-[430px] text-center">Design Guideline</h2>
+            <p className="font-light lg:w-[605px] text-center pb-[20px]">
               These are the sets of recommendations on how to apply design
               principles to enforce consistent and positive user experience
               throughout GaleriKeramik website.
@@ -87,13 +87,13 @@ function Galerikeramik() {
             </div>
           </div>
         </div>
-        <div className="w-full mt-[95px] flex flex-col items-center justify-center bg-[#E9E9E9]">
-          <div className="flex flex-col items-center pt-[50px]">
-            <h2 className="w-[635px] text-center">
+        <div className="w-full mt-[40ox] md:mt-[95px] flex flex-col items-center justify-center bg-[#E9E9E9]">
+          <div className="flex flex-col items-center pt-[50px] px-[20px] md:px-0">
+            <h2 className="lg:w-[635px] text-center">
               Don&lsquo;t find customers for your products, find products for
               your customers.
             </h2>
-            <p className="font-light w-[500px] text-center">
+            <p className="font-light lg:w-[500px] text-center">
               Because Galeri Keramik believe that customer only deserve a good
               quality product. Products are the things people need to assist
               them in doing things better.
@@ -109,7 +109,7 @@ function Galerikeramik() {
                 className="w-full"
               />
             </div>
-            <div className="w-full pt-[50px] pb-[100px]">
+            <div className="w-full py-[20px] md:pt-[50px] md:pb-[100px]">
               <video
                 src={`/galerikeramik/p2.mp4`}
                 alt="galeri keramik gifs 2"
@@ -120,7 +120,7 @@ function Galerikeramik() {
             </div>
           </div>
         </div>
-        <div className="relative w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] py-[95px]">
+        <div className="relative w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] py-[40px] md:py-[95px]">
           <div className="w-full aspect-[1.139] drop-shadow-2xl">
             <Image
               src={`/galerikeramik/p3.png`}
@@ -130,8 +130,8 @@ function Galerikeramik() {
             />
           </div>
         </div>
-        <div className="w-full mt-[95px] flex flex-col items-center justify-center bg-[#FDF1D4]">
-          <div className="relative w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] pt-[50px] pb-[80px]">
+        <div className="w-full md:mt-[95px] flex flex-col items-center justify-center bg-[#FDF1D4]">
+          <div className="relative w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] pt-[20px] pb-[40px] md:pt-[50px] md:pb-[80px]">
             <div className="w-full aspect-[1.069] drop-shadow-2xl">
               <Image
                 src={`/galerikeramik/p4.png`}

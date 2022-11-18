@@ -5,21 +5,21 @@ import Image from "next/image";
 function Composuremagazine() {
   return (
     <div>
-      <Layout>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px]">
-          <div className="flex pt-[25px] items-start gap-[16px] w-[800px] py-[80px]">
+      <Layout stroke="black">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
+          <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[800px] py-[40px] md:py-[80px]">
             <div className="flex items-center gap-[10px]">
               <p className="xl:w-[135px]">Website re-design</p>
               <div className="border-b border-[#9E9E9E] w-[43px]" />
             </div>
-            <div className="flex flex-col -mt-[15px] pr-[70px]">
+            <div className="flex flex-col -mt-[15px] md:pr-[70px]">
               <h1>Composure Magazine</h1>
               <p className="text-[#9E9E9E]">
                 Composure Magazine is a publication media that celebrates
                 current fashion and beauty trends, while showcasing the style
                 and lives of celebrities.
               </p>
-              <div className="flex pt-[20px] justify-between w-[400px]">
+              <div className="flex pt-[20px] justify-between lg:w-[400px]">
                 <div>
                   <p className="font-medium">Agency</p>
                   <p className="font-light text-[14px]">Freelance</p>
@@ -46,7 +46,7 @@ function Composuremagazine() {
             />
           </div>
         </div>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[95px]">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center pt-[40px] md:pt-[95px] px-[20px] md:px-0">
           <div className="flex flex-col items-center">
             <h2 className="max-w-[430px] text-center">
               Connecting with today&lsquo;s generation.
@@ -67,8 +67,8 @@ function Composuremagazine() {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center justify-center mt-[95px] bg-[#FFD6A6]">
-          <div className="relative w-full  max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] py-[60px]">
+        <div className="w-full flex flex-col items-center justify-center mt-[40px] md:mt-[95px] bg-[#FFD6A6]">
+          <div className="relative w-full  max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] py-[30px] md:py-[60px] px-[20px] md:px-0">
             <div className="w-full aspect-[0.303] drop-shadow-2xl">
               <Image
                 src={`/composure/bot.png`}
@@ -79,7 +79,7 @@ function Composuremagazine() {
             </div>
           </div>
         </div>
-        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center py-[95px]">
+        <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex flex-col items-center justify-center py-[40px] md:py-[95px] px-[20px] md:px-0">
           <div className="relative w-full pt-[20px]">
             <div className="w-full aspect-[1.436] drop-shadow-2xl">
               <Image

@@ -7,11 +7,11 @@ const Navbar = ({ toggle, route, router, ...props }) => {
       className="flex relative top-0 z-30 px-4 py-2 md:px-0 justify-center"
       role="navigation"
     >
-      <div className="flex justify-between w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] pt-2">
+      <div className="flex justify-between items-center w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] pt-2">
         <div className="flex space-x-10 items-center justify-center">
           <div className="flex items-center relative w-[125px] h-[45px] md:w-[170px] md:h-[65px] xl:w-[224px] xl:h-[82px]">
             <Link href="/" passHref className="font-extrabold text-[24px]">
-              <div {...props}>GLEN</div>
+              <div className={props.className}>GLEN</div>
             </Link>
           </div>
         </div>
@@ -21,30 +21,30 @@ const Navbar = ({ toggle, route, router, ...props }) => {
             passHref
             className={`p-4 hover:opacity-100 opacity-60 items-center gap-2 hidden md:flex text-[16px]`}
           >
-            <div {...props}>About</div>
+            <div className={props.className}>About</div>
           </Link>
           <Link
             href="/#work"
             passHref
             className={`p-4 hidden md:flex hover:opacity-100 opacity-60 items-center gap-2 text-[16px]`}
           >
-            <div {...props}>Work</div>
+            <div className={props.className}>Work</div>
           </Link>
           <Link
             href="/archives"
             passHref
             className={`p-4 hover:opacity-100 opacity-60 items-center gap-2 hidden md:flex text-[16px]`}
           >
-            <div {...props}>Archives</div>
+            <div className={props.className}>Archives</div>
           </Link>
         </div>
         <div className="cursor-pointer md:hidden" onClick={toggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-8 w-8"
+            className="h-8 w-8 "
             fill="main"
             viewBox="0 0 24 24"
-            stroke="black"
+            stroke={props.stroke}
           >
             <path
               strokeLinecap="round"
