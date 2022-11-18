@@ -57,11 +57,11 @@ function Morningrooster() {
               {`Initial Logo Design Concept`}
             </h2>
             <p className="font-light max-w-[495px] text-center">
-              The name “Morning Rooster” indicates, for example, a journey of
-              quick and meaningful morning routine experience. Providing high
-              quality quick to brew coffee drip for a target audience that likes
-              to drink coffee in the morning, but don&lsquo;t have much time to
-              brew their own coffee.
+              The name &ldquo;Morning Rooster &rdquo; indicates, for example, a
+              journey of quick and meaningful morning routine experience.
+              Providing high quality quick to brew coffee drip for a target
+              audience that likes to drink coffee in the morning, but
+              don&lsquo;t have much time to brew their own coffee.
             </p>
           </div>
           <div className="relative flex items-center justify-center pt-[20px]">
