@@ -5,7 +5,10 @@ import Layout from "../components/Layout";
 function About() {
   return (
     <div className="bg-black min-h-screen">
-      <Header title="Glen Marvin" description="freelance designer" />
+      <Header
+        title="Glen Marvin - About Me"
+        description="Hi I’m Glen Marvin, a Digital Designer based on Surabaya, Indonesia. "
+      />
       <Layout className="text-white" stroke="white">
         <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] flex items-center justify-center px-[20px] md:px-0">
           <div className="text-white xl:px-[80px] py-[100px] flex flex-col flex-grow">
