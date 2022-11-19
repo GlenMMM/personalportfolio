@@ -19,7 +19,7 @@ function Galerikeramik() {
                 different products category, sevices, contact into an unified
                 website experience.
               </p>
-              <div className="flex pt-[20px] justify-between lg:w-[400px]">
+              <div className="flex flex-col md:flex-row gap-y-[10px] md:gap-y-0 pt-[20px] justify-between lg:w-[400px]">
                 <div>
                   <p className="font-medium">Agency</p>
                   <p className="font-light text-[14px]">Freelance</p>
