@@ -2,10 +2,12 @@ import React from "react";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../components/Header";
 
 function Focuscult() {
   return (
     <div>
+      <Header title="Glen Marvin" description="freelance designer" />
       <Layout stroke="black">
         <div className="w-full max-w-[500px] md:max-w-[640px] lg:max-w-[840px] xl:max-w-[980px] 2xl:max-w-[1280px] px-[20px] md:px-0">
           <div className="flex flex-col md:flex-row pt-[25px] items-start gap-[16px] xl:w-[900px] py-[40px] md:py-[80px]">
