@@ -8,6 +8,7 @@ function Header({ ...props }) {
       <meta name="description" content={props.description} />
       <link rel="icon" href="/glenicon.png" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta property="og:image" content="/glenicon.png" />
     </Head>
   );
 }
