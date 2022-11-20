@@ -17,6 +17,10 @@ module.exports = {
           "100%": { opacity: 100, transform: "translate(0px,0px)" },
         },
       },
+      fontFamily: {
+        poppins: ["Poppins"],
+        neue: ["Neue Haas Unica"],
+      },
     },
   },
   plugins: [],

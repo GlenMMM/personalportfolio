@@ -314,10 +314,10 @@ function Focuscult() {
 
                 <div className="pt-[20px]">
                   <div className="relative -left-[21px]">
-                    <div className="absolute border border-[#A8A8A8] h-[510px] sm:h-[450px] md:h-[535px] lg:h-[485px] xl:h-[430px] 2xl:h-[400px] top-[25px]" />
+                    <div className="absolute border border-[#A8A8A8] h-[585px] sm:h-[510px] md:h-[555px] lg:h-[505px] xl:h-[460px] 2xl:h-[400px] top-[25px]" />
                     <div className="absolute rounded-full w-[10px] h-[10px] top-[15px] xl:top-[20px] -left-[4px] bg-[#FA7B7B]" />
-                    <div className="absolute rounded-full w-[10px] h-[10px] top-[250px] sm:top-[230px] md:top-[290px] lg:top-[250px] xl:top-[225px] 2xl:top-[212px] -left-[4px] bg-[#7BFAE3]" />
-                    <div className="absolute rounded-full w-[10px] h-[10px] top-[530px] sm:top-[465px] md:top-[555px] lg:top-[505px] xl:top-[455px] 2xl:top-[418px] -left-[4px] bg-[#857BFA]" />
+                    <div className="absolute rounded-full w-[10px] h-[10px] top-[270px] sm:top-[260px] md:top-[285px] lg:top-[250px] xl:top-[225px] 2xl:top-[212px] -left-[4px] bg-[#7BFAE3]" />
+                    <div className="absolute rounded-full w-[10px] h-[10px] top-[605px] sm:top-[530px] md:top-[580px] lg:top-[530px] xl:top-[480px] 2xl:top-[418px] -left-[4px] bg-[#857BFA]" />
                   </div>
                   <div className="flex pt-[5px] gap-[5px] md:gap-[10px] items-center text-[12px] md:text-[16px]">
                     <div className="border p-[5px] border-[#379298] text-[#379298]">
@@ -358,7 +358,7 @@ function Focuscult() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex pt-[20px] sm:pt-[30px] lg:pt-[45px] gap-[5px] md:gap-[10px] items-center text-[12px] md:text-[16px]">
+                  <div className="flex flex-wrap pt-[20px] sm:pt-[30px] lg:pt-[45px] gap-[5px] md:gap-[10px] items-center text-[12px] md:text-[16px]">
                     <div className="border p-[5px] border-[#379298] text-[#379298]">
                       Teen
                     </div>
